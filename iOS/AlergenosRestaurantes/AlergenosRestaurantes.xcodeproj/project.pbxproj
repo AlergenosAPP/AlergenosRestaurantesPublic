@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660FD4B42DAEB89A00EFD06A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 660FD4B32DAEB89A00EFD06A /* GoogleService-Info.plist */; };
+		66D4512D2DAEA319000B23D6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 66D4512C2DAEA319000B23D6 /* Kingfisher */; };
+		66D451332DAEA637000B23D6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 66D451322DAEA637000B23D6 /* FirebaseAuth */; };
+		66D451352DAEA637000B23D6 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 66D451342DAEA637000B23D6 /* FirebaseCrashlytics */; };
+		66D451372DAEA637000B23D6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 66D451362DAEA637000B23D6 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66D4510F2DAEA23A000B23D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66D450F92DAEA239000B23D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66D451002DAEA239000B23D6;
+			remoteInfo = AlergenosRestaurantes;
+		};
+		66D451192DAEA23A000B23D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66D450F92DAEA239000B23D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66D451002DAEA239000B23D6;
+			remoteInfo = AlergenosRestaurantes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		660FD4B32DAEB89A00EFD06A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		66D451012DAEA239000B23D6 /* AlergenosRestaurantes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlergenosRestaurantes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D4510E2DAEA23A000B23D6 /* AlergenosRestaurantesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlergenosRestaurantesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D451182DAEA23A000B23D6 /* AlergenosRestaurantesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlergenosRestaurantesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3BE651172DBD3B9C00F59B0E /* Exceptions for "AlergenosRestaurantes" folder in "AlergenosRestaurantes" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 66D451002DAEA239000B23D6 /* AlergenosRestaurantes */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		66D451032DAEA239000B23D6 /* AlergenosRestaurantes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3BE651172DBD3B9C00F59B0E /* Exceptions for "AlergenosRestaurantes" folder in "AlergenosRestaurantes" target */,
+			);
+			path = AlergenosRestaurantes;
+			sourceTree = "<group>";
+		};
+		66D451112DAEA23A000B23D6 /* AlergenosRestaurantesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AlergenosRestaurantesTests;
+			sourceTree = "<group>";
+		};
+		66D4511B2DAEA23A000B23D6 /* AlergenosRestaurantesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AlergenosRestaurantesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66D450FE2DAEA239000B23D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D451352DAEA637000B23D6 /* FirebaseCrashlytics in Frameworks */,
+				66D451332DAEA637000B23D6 /* FirebaseAuth in Frameworks */,
+				66D451372DAEA637000B23D6 /* FirebaseFirestore in Frameworks */,
+				66D4512D2DAEA319000B23D6 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D4510B2DAEA23A000B23D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D451152DAEA23A000B23D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66D450F82DAEA239000B23D6 = {
+			isa = PBXGroup;
+			children = (
+				66D451032DAEA239000B23D6 /* AlergenosRestaurantes */,
+				66D451112DAEA23A000B23D6 /* AlergenosRestaurantesTests */,
+				66D4511B2DAEA23A000B23D6 /* AlergenosRestaurantesUITests */,
+				66D451022DAEA239000B23D6 /* Products */,
+				660FD4B32DAEB89A00EFD06A /* GoogleService-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		66D451022DAEA239000B23D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66D451012DAEA239000B23D6 /* AlergenosRestaurantes.app */,
+				66D4510E2DAEA23A000B23D6 /* AlergenosRestaurantesTests.xctest */,
+				66D451182DAEA23A000B23D6 /* AlergenosRestaurantesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66D451002DAEA239000B23D6 /* AlergenosRestaurantes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D451222DAEA23A000B23D6 /* Build configuration list for PBXNativeTarget "AlergenosRestaurantes" */;
+			buildPhases = (
+				66D450FD2DAEA239000B23D6 /* Sources */,
+				66D450FE2DAEA239000B23D6 /* Frameworks */,
+				66D450FF2DAEA239000B23D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				66D451032DAEA239000B23D6 /* AlergenosRestaurantes */,
+			);
+			name = AlergenosRestaurantes;
+			packageProductDependencies = (
+				66D4512C2DAEA319000B23D6 /* Kingfisher */,
+				66D451322DAEA637000B23D6 /* FirebaseAuth */,
+				66D451342DAEA637000B23D6 /* FirebaseCrashlytics */,
+				66D451362DAEA637000B23D6 /* FirebaseFirestore */,
+			);
+			productName = AlergenosRestaurantes;
+			productReference = 66D451012DAEA239000B23D6 /* AlergenosRestaurantes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66D4510D2DAEA23A000B23D6 /* AlergenosRestaurantesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D451252DAEA23A000B23D6 /* Build configuration list for PBXNativeTarget "AlergenosRestaurantesTests" */;
+			buildPhases = (
+				66D4510A2DAEA23A000B23D6 /* Sources */,
+				66D4510B2DAEA23A000B23D6 /* Frameworks */,
+				66D4510C2DAEA23A000B23D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66D451102DAEA23A000B23D6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				66D451112DAEA23A000B23D6 /* AlergenosRestaurantesTests */,
+			);
+			name = AlergenosRestaurantesTests;
+			packageProductDependencies = (
+			);
+			productName = AlergenosRestaurantesTests;
+			productReference = 66D4510E2DAEA23A000B23D6 /* AlergenosRestaurantesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66D451172DAEA23A000B23D6 /* AlergenosRestaurantesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D451282DAEA23A000B23D6 /* Build configuration list for PBXNativeTarget "AlergenosRestaurantesUITests" */;
+			buildPhases = (
+				66D451142DAEA23A000B23D6 /* Sources */,
+				66D451152DAEA23A000B23D6 /* Frameworks */,
+				66D451162DAEA23A000B23D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66D4511A2DAEA23A000B23D6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				66D4511B2DAEA23A000B23D6 /* AlergenosRestaurantesUITests */,
+			);
+			name = AlergenosRestaurantesUITests;
+			packageProductDependencies = (
+			);
+			productName = AlergenosRestaurantesUITests;
+			productReference = 66D451182DAEA23A000B23D6 /* AlergenosRestaurantesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66D450F92DAEA239000B23D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					66D451002DAEA239000B23D6 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					66D4510D2DAEA23A000B23D6 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 66D451002DAEA239000B23D6;
+					};
+					66D451172DAEA23A000B23D6 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 66D451002DAEA239000B23D6;
+					};
+				};
+			};
+			buildConfigurationList = 66D450FC2DAEA239000B23D6 /* Build configuration list for PBXProject "AlergenosRestaurantes" */;
+			developmentRegion = es;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				ca,
+				"eu-ES",
+			);
+			mainGroup = 66D450F82DAEA239000B23D6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				66D4512B2DAEA319000B23D6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				66D451312DAEA637000B23D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				660FD4B02DAEB6B600EFD06A /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 66D451022DAEA239000B23D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66D451002DAEA239000B23D6 /* AlergenosRestaurantes */,
+				66D4510D2DAEA23A000B23D6 /* AlergenosRestaurantesTests */,
+				66D451172DAEA23A000B23D6 /* AlergenosRestaurantesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66D450FF2DAEA239000B23D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660FD4B42DAEB89A00EFD06A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D4510C2DAEA23A000B23D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D451162DAEA23A000B23D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66D450FD2DAEA239000B23D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D4510A2DAEA23A000B23D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66D451142DAEA23A000B23D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66D451102DAEA23A000B23D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66D451002DAEA239000B23D6 /* AlergenosRestaurantes */;
+			targetProxy = 66D4510F2DAEA23A000B23D6 /* PBXContainerItemProxy */;
+		};
+		66D4511A2DAEA23A000B23D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66D451002DAEA239000B23D6 /* AlergenosRestaurantes */;
+			targetProxy = 66D451192DAEA23A000B23D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66D451202DAEA23A000B23D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9M98K8Y584;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66D451212DAEA23A000B23D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9M98K8Y584;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66D451232DAEA23A000B23D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9M98K8Y584;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlergenosRestaurantes/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Usamos tu ubicación para mostrarte restaurantes cercanos y mejorar tu experiencia.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = herni.rg.AlergenosRestaurantes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		66D451242DAEA23A000B23D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9M98K8Y584;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AlergenosRestaurantes/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Usamos tu ubicación para mostrarte restaurantes cercanos y mejorar tu experiencia.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = herni.rg.AlergenosRestaurantes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		66D451262DAEA23A000B23D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9M98K8Y584;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = herni.rg.AlergenosRestaurantesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlergenosRestaurantes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlergenosRestaurantes";
+			};
+			name = Debug;
+		};
+		66D451272DAEA23A000B23D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9M98K8Y584;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = herni.rg.AlergenosRestaurantesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlergenosRestaurantes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlergenosRestaurantes";
+			};
+			name = Release;
+		};
+		66D451292DAEA23A000B23D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9M98K8Y584;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = herni.rg.AlergenosRestaurantesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlergenosRestaurantes;
+			};
+			name = Debug;
+		};
+		66D4512A2DAEA23A000B23D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9M98K8Y584;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = herni.rg.AlergenosRestaurantesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlergenosRestaurantes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66D450FC2DAEA239000B23D6 /* Build configuration list for PBXProject "AlergenosRestaurantes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D451202DAEA23A000B23D6 /* Debug */,
+				66D451212DAEA23A000B23D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D451222DAEA23A000B23D6 /* Build configuration list for PBXNativeTarget "AlergenosRestaurantes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D451232DAEA23A000B23D6 /* Debug */,
+				66D451242DAEA23A000B23D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D451252DAEA23A000B23D6 /* Build configuration list for PBXNativeTarget "AlergenosRestaurantesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D451262DAEA23A000B23D6 /* Debug */,
+				66D451272DAEA23A000B23D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D451282DAEA23A000B23D6 /* Build configuration list for PBXNativeTarget "AlergenosRestaurantesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D451292DAEA23A000B23D6 /* Debug */,
+				66D4512A2DAEA23A000B23D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		660FD4B02DAEB6B600EFD06A /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.59.0;
+			};
+		};
+		66D4512B2DAEA319000B23D6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
+		66D451312DAEA637000B23D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66D4512C2DAEA319000B23D6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66D4512B2DAEA319000B23D6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		66D451322DAEA637000B23D6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66D451312DAEA637000B23D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		66D451342DAEA637000B23D6 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66D451312DAEA637000B23D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		66D451362DAEA637000B23D6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 66D451312DAEA637000B23D6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 66D450F92DAEA239000B23D6 /* Project object */;
+}

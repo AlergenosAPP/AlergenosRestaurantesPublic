@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0" version="26.2.14">
+  <diagram name="AlergenosRestaurantes" id="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t1" value="ALLERGENS&amp;nbsp; &lt;br&gt;[PK] id: UUID &amp;nbsp;&lt;br&gt;allergenNumber: Int &amp;nbsp;&lt;br&gt;name: String &amp;nbsp;&lt;br&gt;created_at: Date &amp;nbsp;&lt;br&gt;last_updated: Date&amp;nbsp; " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1021" y="40" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" value="DISHES&amp;nbsp; &lt;br&gt;[PK] id: UUID &amp;nbsp;&lt;br&gt;[FK] restaurant_id: UUID &amp;nbsp;&lt;br&gt;name: String &amp;nbsp;&lt;br&gt;photo: String &amp;nbsp;&lt;br&gt;description: String &amp;nbsp;&lt;br&gt;ingredients: String &amp;nbsp;&lt;br&gt;[FK] dish_category_id: UUID &amp;nbsp;&lt;br&gt;energy_kj: Int? &amp;nbsp;&lt;br&gt;energy_kcal: Int? &amp;nbsp;&lt;br&gt;fat: Double? &amp;nbsp;&lt;br&gt;saturated_fat: Double? &amp;nbsp;&lt;br&gt;carbohydrates: Double? &amp;nbsp;&lt;br&gt;sugars: Double? &amp;nbsp;&lt;br&gt;proteins: Double? &amp;nbsp;&lt;br&gt;fibers: Double? &amp;nbsp;&lt;br&gt;salt: Double? &amp;nbsp;&lt;br&gt;is_vegan: Bool &amp;nbsp;&lt;br&gt;is_vegetarian: Bool &amp;nbsp;&lt;br&gt;is_spicy: Bool &amp;nbsp;&lt;br&gt;created_at: Date &amp;nbsp;&lt;br&gt;last_updated: Date&amp;nbsp; " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="790" y="360" width="250" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" value="DISH_ALLERGEN_PIVOT&amp;nbsp; &lt;br&gt;[PK] id: UUID &amp;nbsp;&lt;br&gt;[FK] dish_id: UUID &amp;nbsp;&lt;br&gt;[FK] allergen_id: UUID &amp;nbsp;&lt;br&gt;contains_allergen: Bool &amp;nbsp;&lt;br&gt;may_contain_allergen: Bool &amp;nbsp;&lt;br&gt;created_at: Date &amp;nbsp;&lt;br&gt;last_updated: Date&amp;nbsp; " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="20" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t4" value="DISHES_CATEGORY&amp;nbsp; &lt;br&gt;[PK] id: UUID &amp;nbsp;&lt;br&gt;name: String &amp;nbsp;&lt;br&gt;order: Int &amp;nbsp;&lt;br&gt;created_at: Date &amp;nbsp;&lt;br&gt;last_updated: Date&amp;nbsp; " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t5" value="DISHES_VARIANTS&amp;nbsp; &lt;br&gt;[PK] id: UUID &amp;nbsp;&lt;br&gt;[FK] original_dish_id: UUID &amp;nbsp;&lt;br&gt;name: String &amp;nbsp;&lt;br&gt;ingredients: String &amp;nbsp;&lt;br&gt;created_at: Date &amp;nbsp;&lt;br&gt;last_updated: Date&amp;nbsp; " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="100" y="30" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="t6" value="DISH_VARIANT_ALLERGEN_PIVOT&amp;nbsp; &lt;br&gt;[PK] id: UUID &amp;nbsp;&lt;br&gt;[FK] dish_variant_id: UUID &amp;nbsp;&lt;br&gt;[FK] allergen_id: UUID &amp;nbsp;&lt;br&gt;contains_allergen: Bool &amp;nbsp;&lt;br&gt;may_contain_allergen: Bool &amp;nbsp;&lt;br&gt;created_at: Date &amp;nbsp;&lt;br&gt;last_updated: Date&amp;nbsp; " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="590" y="20" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t7" value="RESTAURANTS&amp;nbsp; &lt;br&gt;[PK] id: UUID &amp;nbsp;&lt;br&gt;name: String &amp;nbsp;&lt;br&gt;description: String &amp;nbsp;&lt;br&gt;photo_logo: String &amp;nbsp;&lt;br&gt;photo_background: String &amp;nbsp;&lt;br&gt;sponsored: Int &amp;nbsp;&lt;br&gt;price: Int &amp;nbsp;&lt;br&gt;created_at: Date &amp;nbsp;&lt;br&gt;last_updated: Date&amp;nbsp; " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="100" y="580" width="220" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t8" value="RESTAURANTS_CATEGORIES&amp;nbsp; &lt;br&gt;[PK] id: UUID &amp;nbsp;&lt;br&gt;name: String &amp;nbsp;&lt;br&gt;photo: String &amp;nbsp;&lt;br&gt;created_at: Date &amp;nbsp;&lt;br&gt;last_updated: Date&amp;nbsp; " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="960" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t9" value="RESTAURANT_CATEGORY_PIVOT&amp;nbsp; &lt;br&gt;[PK] id: UUID &amp;nbsp;&lt;br&gt;[FK] restaurant_id: UUID &amp;nbsp;&lt;br&gt;[FK] category_id: UUID &amp;nbsp;&lt;br&gt;created_at: Date &amp;nbsp;&lt;br&gt;last_updated: Date&amp;nbsp; " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1021" y="960" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="t10" value="RESTAURANTS_VARIANTS&amp;nbsp; &lt;br&gt;[PK] id: UUID &amp;nbsp;&lt;br&gt;[FK] restaurant_id: UUID &amp;nbsp;&lt;br&gt;name: String &amp;nbsp;&lt;br&gt;address: String &amp;nbsp;&lt;br&gt;latitude: Double &amp;nbsp;&lt;br&gt;longitude: Double &amp;nbsp;&lt;br&gt;phone_number: Int? &amp;nbsp;&lt;br&gt;mail: String? &amp;nbsp;&lt;br&gt;created_at: Date &amp;nbsp;&lt;br&gt;last_updated: Date&amp;nbsp; " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="100" y="910" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="t2" target="t7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="t2" target="t4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="t3" target="t2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="t3" target="t1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="t5" target="t2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="t6" target="t5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="t6" target="t1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="t9" target="t7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="t9" target="t8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="t10" target="t7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

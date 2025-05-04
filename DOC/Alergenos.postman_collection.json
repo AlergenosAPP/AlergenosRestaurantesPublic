@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "d4335d75-9489-4388-8d78-05404367f3a9",
+		"name": "Alergenos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23697663",
+		"_collection_link": "https://bold-resonance-234544.postman.co/workspace/My-Workspace~3b0fdc3f-5f8d-49af-819d-b3c1463eff35/collection/23697663-d4335d75-9489-4388-8d78-05404367f3a9?action=share&source=collection_link&creator=23697663"
+	},
+	"item": [
+		{
+			"name": "obtener restaurantes",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "obtener 1 restaurante (necesitamos id y alergenos usuario))",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "obtener restaurantes dentro de un ratio (necesitamos lat, lang, ratio y alergenos)",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "obtener plato con id del plato",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
